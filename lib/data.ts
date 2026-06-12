@@ -62,9 +62,9 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "E-Commerce Web & Mobile Platform",
+    title: "Parking Management Web & Mobile Platform",
     description:
-      "Led full-stack architecture and development for an e-commerce platform with React, Next.js, Vue.js, Laravel, Django, and React Native, integrating RESTful APIs, GraphQL, real-time notifications, and seamless mobile/desktop experience.",
+      "Led full-stack architecture and development for a parking management platform with React, Next.js, Vue.js, Laravel, Django, and React Native, integrating RESTful APIs, GraphQL, real-time notifications, and seamless mobile/desktop experience.",
     tags: ["React", "Next.js", "Vue.js", "Laravel", "Django", "React Native", "AWS", "Docker", "Kafka", "RabbitMQ", "gRPC"],
     href: "https://www.parkengage.com/",
     year: "2025",
@@ -72,12 +72,13 @@ export const projects: Project[] = [
       { src: "/projects/parkengage/01.jpg", alt: "ParkEngage homepage hero — touchless parking" },
       { src: "/projects/parkengage/02.jpg", alt: "ParkEngage product suite overview" },
       { src: "/projects/parkengage/03.jpg", alt: "ParkEngage contact and demo request" },
+      { src: "/projects/parkengage/04.jpg", alt: "ParkEngage contract doc" }
     ],
   },
   {
-    title: "Healthcare Enterprise Application",
+    title: "Fitness and Nutrition Management Platform",
     description:
-      "Developed dynamic front-end using Angular and React with Laravel/PHP backends, optimized database operations with MySQL and Redis, and implemented GitLab CI/CD pipelines for robust enterprise-scale healthcare solutions.",
+      "Developed dynamic front-end using Angular and React with Laravel/PHP backends, optimized database operations with MySQL and Redis, and implemented GitLab CI/CD pipelines for robust enterprise-scale fitness and nutrition management solutions.",
     tags: ["Angular", "React", "Laravel", "PHP", "MySQL", "Redis", "GCP", "GitLab CI/CD"],
     href: "https://www.dayforce.com/",
     year: "2024",
@@ -85,10 +86,11 @@ export const projects: Project[] = [
       { src: "/projects/dayforce/01.jpg", alt: "Dayforce homepage hero — Lighten the load" },
       { src: "/projects/dayforce/02.jpg", alt: "Dayforce AI-powered people platform" },
       { src: "/projects/dayforce/03.jpg", alt: "Dayforce HR feature breakdown" },
+      { src: "/projects/dayforce/04.jpg", alt: "Dayforce HR feature breakdown" },
     ],
   },
   {
-    title: "Job Matching Web Platform",
+    title: "Job Searching and Job Matching Platform",
     description:
       "Built full-stack web application with React, Django, Node.js, and Go, integrating REST APIs, microservices, and third-party services (LinkedIn, Google) to provide real-time job matching and user engagement.",
     tags: ["React", "Django", "Node.js", "Go", "REST APIs", "Bootstrap", "Git"],
@@ -97,10 +99,12 @@ export const projects: Project[] = [
     images: [
       { src: "/projects/yahoo/01.jpg", alt: "Yahoo Inc. homepage — a nice place to stay on the Internet" },
       { src: "/projects/yahoo/02.jpg", alt: "Yahoo core offerings — Ads, DSP, and Search" },
+      { src: "/projects/yahoo/03.jpg", alt: "Yahoo Inc. homepage — a nice place to stay on the Internet" },
+      { src: "/projects/yahoo/04.jpg", alt: "Yahoo core offerings — Ads, DSP, and Search" },
     ],
   },
   {
-    title: "Custom Client Web Applications",
+    title: "Business Helpdesk and Support Platform",
     description:
       "Developed responsive user interfaces and backend APIs with Python, PHP, HTML, CSS, JavaScript, and jQuery, ensuring scalability, security, and maintainable architecture for enterprise clients.",
     tags: ["Python", "PHP", "JavaScript", "HTML", "CSS", "jQuery", "REST APIs"],
@@ -108,6 +112,9 @@ export const projects: Project[] = [
     year: "2018",
     images: [
       { src: "/projects/aptean/01.jpg", alt: "Aptean AppCentral platform — run your operation in one place" },
+      { src: "/projects/aptean/02.jpg", alt: "Aptean AppCentral platform — run your operation in one place" },
+      { src: "/projects/aptean/03.jpg", alt: "Aptean AppCentral platform — run your operation in one place" },
+      { src: "/projects/aptean/04.jpg", alt: "Aptean AppCentral platform — run your operation in one place" },
     ],
   },
 ];
@@ -126,15 +133,15 @@ export const experience: ExperienceEntry[] = [
     company: "Parkengage",
     period: "10/2024 — 02/2026",
     description:
-      "Led architectural design and full-stack implementation of web and mobile e-commerce platform. Integrated React, Next.js, Vue.js frontends with Laravel/Django backends. Managed AWS deployment, CI/CD pipelines, Kafka/RabbitMQ messaging, and gRPC for inter-service communication.",
+      "Led architectural design and full-stack implementation of web and mobile parking management platform. Integrated React, Next.js, Vue.js frontends with Laravel/Django backends. Managed AWS deployment, CI/CD pipelines, Kafka/RabbitMQ messaging, and gRPC for inter-service communication.",
     stack: ["React", "Next.js", "React Native", "Vue.js", "Laravel", "Django", "AWS", "Docker", "Kafka", "RabbitMQ", "gRPC"],
   },
   {
     role: "Full Stack Developer",
-    company: "Ceridian",
+    company: "Plankk",
     period: "06/2022 — 08/2024",
     description:
-      "Built healthcare enterprise applications with Angular, React, and Laravel/PHP backends. Optimized MySQL database and Redis caching. Established GitLab CI/CD pipelines and cloud deployment on GCP, supporting TDD and high availability.",
+      "Built fitness and nutrition management enterprise applications with Angular, React, and Laravel/PHP backends. Optimized MySQL database and Redis caching. Established GitLab CI/CD pipelines and cloud deployment on GCP, supporting TDD and high availability.",
     stack: ["Angular", "React", "Laravel", "PHP", "MySQL", "Redis", "GCP", "GitLab CI/CD"],
   },
   {
